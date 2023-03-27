@@ -6,6 +6,7 @@
   "dependencies": {
     "jsonfile": "^6.1.0",
     "moment": "^2.29.4",
+    "random": "^4.1.0",
     "simple-git": "^3.17.0"
   },
   "devDependencies": {},
