@@ -5,7 +5,7 @@ const simpleGit = require('simple-git')
 const FILE_PATH = './data.json'
 
 const makeCommit = n => {
-    if(n===0) return simpleGit.push();
+    if(n===0) return simpleGit().push();
     
     const x = Math.floor(Math.random() * 54)
     const y = Math.floor(Math.random() * 6)
